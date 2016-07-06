@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+ was introduced?
+It will help you to quickly identify where the mistake is do to a typo
+
+What do you think are the pros and cons of manually choosing when to create a 
+commit , like you do in Git, vs having automatically saved, like Google Docs
+does?
+Pros:
+-You can do more logical commits.
+-You can do commits when you need them 
+Cons:
+-You can create as much commits as you want
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+becouse it is easy to keep a track of the whole idea that your were working at
+that time.
+
+Config proxy in Git
+ git config --global http.proxy http://x192160:Nrgr1503881@10.92.8.21:80
+
+unset proxy
+ git config --global --unset http.proxy
+ 
+get proxy 
+ git config --global --get http.proxy
+
+How can you use the commands git log and git diff to view the history of files?
+yo can use them to check first which are the changes or commits that have been
+ applied to a project and what differences are between each commit.
+
+How might using version control make you more confident to make changes that 
+could break something?
+with this kind of tools it is easier to find wich could be de error and go back 
+to prevos version of your code en fix it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to try it in my projects :)
+
